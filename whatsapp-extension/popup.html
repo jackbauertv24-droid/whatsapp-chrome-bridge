@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: Arial; padding: 15px; width: 250px; }
+    input { width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box; }
+    button { width: 100%; padding: 8px; background: #25D366; color: white; border: none; cursor: pointer; }
+    #status { margin-top: 10px; font-size: 12px; color: green; display: none; }
+  </style>
+</head>
+<body>
+  <h4>API Configuration</h4>
+  <label>URL:</label>
+  <input type="text" id="apiUrl" value="https://vs.238777.xyz/proxy/3000">
+  <label>Secret Key:</label>
+  <input type="text" id="secretKey" value="my_super_secret_password_123">
+  <button id="saveBtn">Save & Connect</button>
+  <div id="status">Saved! Reloading bridge...</div>
+  <script src="popup.js"></script>
+</body>
+</html>
